@@ -1,0 +1,89 @@
+@font-face{
+  src: url(fonts/Roboto-BlackItalic.ttf);
+  font-family: Roboto-BlackItalic;
+}
+header{
+  background-color: aqua;
+
+}
+p{
+
+  word-spacing: 4px;
+}
+#login
+{
+  background-image: url(img/biotomatoes.png);
+}
+#logo1{
+  float: left;
+  margin-right: 10px;
+  
+}
+button{
+
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0F5AC8; 
+
+    color: #DDDDDD;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  nav {
+    border: #000;
+    padding:0cqi ;
+    display:flex;
+    justify-content: space-around;
+
+    
+   }
+ footer {
+   display: flex;
+   justify-content:space-evenly;
+   background-color:azure;
+  
+ }
+ .footer a{
+  text-decoration: none;
+  color: #DDDDDD;
+ }
+ h4{
+  
+  text-align: center;
+  padding: 5px;
+  background-color: white;
+  color: #000;
+ }
+ h1{
+  font-family: Roboto-BlackItalic, Geneva, Tahoma,;
+  font-size: initial;
+  font-weight: bold;
+  background-color: aqua;
+  border-color: bisque;
+ }
+ 
+
+ a{
+   display:block;
+   border: 0cap;
+   justify-items:flex-start ;
+   align-items: center;
+   background-attachment: fixed;
+   background-color: whitesmoke;
+ }
+  form{
+    text-align: center;
+  padding: 5px;
+  background-color: white;
+  color: #000;
+}
+dt{
+background-color: aquamarine;
+}
+.dt1{
+  background-color: aqua;
+}
+header{
+  background-image: cross-fade();
+}
