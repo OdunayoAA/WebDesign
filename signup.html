@@ -10,46 +10,31 @@
 
 <body>
     <nav>
-        <a href="hompage.html">
-            <button>Home</button>
-            </a>
-            <a href="Whatwesell.html">
-              <button>What we sell</button>
-              </a>
-              <a href="ContactPage.html">
-                <button>Contact us</button>
-                </a>
-          <a href="formpage.html">
-            <button>Login</button>
-            </a>
-            <a href="About us page.html">
-              <button>About us</button>
-              </a>
+        
+          <a href="index.html"><button>Home</button></a>
+          <a href="ContactPage.html"><button>Contact us</button></a>
+          <a href="About us page.html"><button>About us</button></a>
+        
     </nav>
 
     <h4> Create an account </h4>
-    <hr class="line" style="border: none; height: 1px; background-color: black; width: 100%;">
+    <form action="action_page.php" method="POST">
 
-    <section class="form-container">
-
-        <form action="action_page.php" method="POST">
-
-            
-            <label for="Fname">First Name:</label><br>
-            <input class="name" type="text" placeholder="Enter your first name"required><br><br>
+        <label for="Fname">First Name:</label><br>
+            <input class="name" type="text" placeholder="Enter your first name"required><br>
 
             <label for="Lname">Last Name:</label><br>
             <input class="name" type="text" placeholder="Enter your last name"required><br>
 
             <label for="Phone">Phone</label><br>
-            <input class="phone" id="phone" type="tel" placeholder="Enter phone number"><br><br>
+            <input class="phone" id="phone" type="tel" placeholder="Enter phone number"><br>
 
             <label class="mail" for="email">Email Address:</label><br>
-            <input class="email" type="email" id="email" name="email" placeholder="Enter email"required><br><br>
+            <input class="email" type="email" id="email" name="email" placeholder="Enter email"required><br>
 
             <label for="Password">Password:</label><br>
             <input class="pass" type="password" id="password" name="password"
-                placeholder="enter password" required><br><br>
+                placeholder="enter password" required><br>
 
             <label for="confirm password">Confirm Password:</label><br>
             <input class="pass" type="password" id="password" name="password"
@@ -72,10 +57,7 @@
             </button>
             
         </form>
-   
-
-    </section>
-    <hr>
+         <hr>
 
     <footer>
        &copy; copyright reserved 2024<br>

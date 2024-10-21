@@ -1,89 +1,121 @@
+
 @font-face{
   src: url(fonts/Roboto-BlackItalic.ttf);
   font-family: Roboto-BlackItalic;
 }
 header{
+ 
+}
+nav{
+  display:flow-root;
+  list-style-type: none;
+  border:none;
+  padding:0px ;
+  margin: 0px;
+  display:flex;
+  justify-content: space-around;
+  overflow: hidden;
+
+}
+button{
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0fc872; 
+  color: #DDDDDD;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer li{
+  max-width: 1170px;
+  background-color: aliceblue;
+  margin: auto;
+  
+}
+footer{
+  display: flex;
+  
+}
+footer h4{
+  font-size: 18px;
+  color: #DDDDDD;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+/*this are all for the dropdown button*/
+.dropdown button{
+  background-color: #0fc872;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown .dropdown-content{
+  display: none;
+  position: absolute;
+  min-width: 10px;
+
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.dropdown:hover button{
+  background-color:blue;
+}
+.dropdown a:hover{
   background-color: aqua;
-
+}/*this section are all classes*/
+.about1{
+ word-spacing: 4px;
 }
-p{
-
-  word-spacing: 4px;
-}
-#login
+.Fruit
 {
   background-image: url(img/biotomatoes.png);
 }
+.Dairy{
+  background-color: #0fc872;
+}
+.footer{
+background-color: #0fc872;
+padding: 70px 0;
+}
+.footerul{
+  list-style: none;
+}
+article{
+  display: flow-root;
+}
+aside{
+display:flow-root ;
+}
+section{
+display: flow-root;
+}
+
 #logo1{
   float: left;
   margin-right: 10px;
-  
+  margin-left: 10px;
+  padding-bottom: 0em;
+  border: none;
+  border-radius: 100px;
 }
-button{
-
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #0F5AC8; 
-
-    color: #DDDDDD;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+#hangingfruit{
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  padding-left: 0em;
+  border-radius: 100px;
 }
-  nav {
-    border: #000;
-    padding:0cqi ;
-    display:flex;
-    justify-content: space-around;
-
-    
-   }
- footer {
-   display: flex;
-   justify-content:space-evenly;
-   background-color:azure;
-  
- }
- .footer a{
-  text-decoration: none;
-  color: #DDDDDD;
- }
- h4{
-  
+#plantingseed{
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding-left: 0em;
+  border-radius: 100px;
+}
+  form{
   text-align: center;
   padding: 5px;
   background-color: white;
   color: #000;
- }
- h1{
-  font-family: Roboto-BlackItalic, Geneva, Tahoma,;
-  font-size: initial;
-  font-weight: bold;
-  background-color: aqua;
-  border-color: bisque;
- }
- 
-
- a{
-   display:block;
-   border: 0cap;
-   justify-items:flex-start ;
-   align-items: center;
-   background-attachment: fixed;
-   background-color: whitesmoke;
- }
-  form{
-    text-align: center;
-  padding: 5px;
-  background-color: white;
-  color: #000;
-}
-dt{
-background-color: aquamarine;
-}
-.dt1{
-  background-color: aqua;
-}
-header{
-  background-image: cross-fade();
 }
