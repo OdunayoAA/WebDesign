@@ -41,43 +41,35 @@ button{
   border-radius: 5px;
   cursor: pointer;
 }
+
+button:hover{
+  background-color: aqua;
+}
 /*this are all for the dropdown button*/
-.dropdown button{
-  display:block ;
-  padding: 10px;
-  font-size:16px ;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+.dropdown{
+  background-color: #0fc872;
+  color: #DDDDDD;
+  
 }
 .dropdown a{
-  display:none;
-  padding: 10px 15px;
+  display: block;
+  color: #0000ff;
   text-decoration: none;
+  padding: 10px 15px;
+}
+.dropdown .content{
+  display: none;
+  position: absolute;
+  background-color: hsl(hue, saturation, lightness);
+  min-width: 100px;
+}.dropdown:hover .content{
+  display: block;
+}
+.dropdown:hover button{
+  background-color: aqua;
 }
 .dropdown a:hover{
-  color: #ffd900;
-  display: block;
-}
-.dropdown .dropdown-content{
-  display: none;
-  background-color:chartreuse;
-  list-style:none ;
-  display:block;
-  position:absolute;
-  min-width: 10px;
-}
-.dropdown:hover .dropdown-content{
-  display:block;
-
-} 
-.dropdown:hover button{
-  background-color:blue;
-  display: block;
-  color: #DDDDDD;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  background-color: chartreuse;
 }
 /*this are all for the footer*/
 footer{
