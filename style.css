@@ -1,30 +1,79 @@
 
-@font-face{
-  src: url(fonts/Roboto-BlackItalic.ttf);
-  font-family: Roboto-BlackItalic;
-}@media (max-width: 768){}
+body{
+  margin: 0px;
+  padding: 0px;
+}
 header h1{
   font-size: 500;
   text-align: center;
-  color: #0fc872;
- 
+  color:aliceblue;
 }
-nav{
+#logo1{
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-bottom: 0em;
+  border: none;
+  border-radius: 100px;
+} nav ul{
   display:flow-root;
   list-style-type: none;
   border:none;
+  padding-top: 10px;
   padding:0px ;
   margin: 0px;
-  display:flex;
   justify-content:space-evenly;
   overflow: hidden;
   padding-left: 10px;
-
+}
+nav ul li{
+  
+  float: right;
+  line-height: 0;
+  margin: 0 10px;
 }
 button{
   padding: 10px;
   font-size: 16px;
-  background-color: #0fc872; 
+  background-color:#0fc872;
+  color: #DDDDDD;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/*this are all for the dropdown button*/
+.dropdown button{
+  display:block ;
+  padding: 10px;
+  font-size:16px ;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.dropdown a{
+  display:none;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+.dropdown a:hover{
+  color: #ffd900;
+  display: block;
+}
+.dropdown .dropdown-content{
+  display: none;
+  background-color:chartreuse;
+  list-style:none ;
+  display:block;
+  position:absolute;
+  min-width: 10px;
+}
+.dropdown:hover .dropdown-content{
+  display:block;
+
+} 
+.dropdown:hover button{
+  background-color:blue;
+  display: block;
   color: #DDDDDD;
   border: none;
   border-radius: 5px;
@@ -86,66 +135,45 @@ footer section ul li{
 }
 footer section ul li:hover{
   color: #08084a;
-  padding-left: 10px;
+  cursor:pointer;
 }
-/*this are all for the dropdown button*/
-.dropdown button{
-  background-color: #0fc872;
-  padding: 10px 15px;
-  border: none;
-  cursor: pointer;
+/*this section are all classes*/
+.body1{ background-image: url(img/grassfedlamb.png);
+  background-repeat: no-repeat;
+  background-position:top;
+  background-attachment: fixed;
+  background-size: cover;
 }
-.dropdown .dropdown-content{
-  list-style:none ;
-  display: none;
-  position:sticky;
-  min-width: 10px;
-  
-
-}
-.dropdown:hover .dropdown-content{
-  display:block;
-  position: 10px; ; 
-  padding-left: 10px;
-}
-.dropdown:hover button{
-  background-color:blue;
-}
-.dropdown a:hover{
-  background-color: aqua;
-  display: block;
-}/*this section are all classes*/
 .about1{
  word-spacing: 4px;
- 
+}.about1 h2{
+  text-align: center;
+}.textcolor{
+  color:azure;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flow-root;
 }
 .Dairy{
   background-color: #0fc872;
   display:flow-root;
-
 }
-/*this class sign up is for h4 text in sign up page*/
 .align{
   text-align: center;
 }
-article{
-  display: flow-root;
+article h2{
+  color: aliceblue;
 }
-aside{
-display:flow-root ;
-}
-section{
+section {
 display: flow-root;
 }
-
-#logo1{
-  float: left;
-  margin-right: 10px;
-  margin-left: 10px;
-  padding-bottom: 0em;
-  border: none;
-  border-radius: 100px;
+section h4{
+  color: aliceblue;
+  text-transform: uppercase;
+  
 }
+/*this are IDs(all ID in the entire html file can be found here*/
+
 #hangingfruit{
   float: right;
   margin-left: 10px;
