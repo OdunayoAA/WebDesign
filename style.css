@@ -155,9 +155,11 @@ footer section ul li:hover{
 .dropdown a:hover{
   background-color: chartreuse;
 }
+
 article h2{
   color: aliceblue;
 }
+
 section {
 display: flow-root;
 }
@@ -166,6 +168,24 @@ section h4{
   text-transform: uppercase;
   
 }
+/*this is for the table in about us page*/
+
+table{
+  background-image: url(img/farmegghomepage.png);
+  border: 1px solid #000;
+  width: 300px;
+  color: aliceblue;
+  font-weight: 400;
+}
+table th {
+  text-align: left;
+}
+table ,th, td{
+  border: 1px solid #000;
+  border-color: #DDDDDD;
+  border-collapse: collapse;
+}
+
 /*this are IDs(all ID in the entire html file can be found here*/
 
 #hangingfruit{
