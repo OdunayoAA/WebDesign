@@ -38,7 +38,14 @@ nav ul li{
   line-height: 0;
   margin: 0 10px;
 }
+
+nav ul:visited{
+  background-color: brown;
+
+}
+
 button{
+
   padding: 10px;
   font-size: 16px;
   background-color:#0fc872;
@@ -50,7 +57,9 @@ button{
 
 button:hover{
   background-color: aqua;
+  
 }
+
 /*this are all for the footer*/
 footer{
   max-width: 1770px;
@@ -110,7 +119,7 @@ footer section ul li:hover{
   cursor:pointer;
 }
 /*this section contains the entire classes in the html file*/
-.body1{ background-image: url(img/grassfedlamb.png);
+.body1{ background-image: url(grassfedlamb.png);
   background-repeat: no-repeat;
   background-position:top;
   background-attachment: fixed;
@@ -196,6 +205,7 @@ table ,th, td{
   border: 1px solid #000;
   border-color: #DDDDDD;
   border-collapse: collapse;
+  border-width: 3px;
 }
 
 /*this are IDs(all ID in the entire html file can be found here*/
@@ -216,6 +226,16 @@ table ,th, td{
   border-radius: 100px;
   max-width: 100%;
 }
+#fruit{
+
+  float: right;
+  margin-left: 10px;
+  margin-right: 10rem;
+  margin-bottom: 20px;
+  padding-right: 0em;
+  border-radius: 100px;
+  max-width: 100%;
+}
 
 /*this area is for the forms*/
 
@@ -226,12 +246,4 @@ form{
   padding: 5px;
   background-color: white;
   color: #000;
-}
-@media screen and (max-width: 768px)
- {
-.about1{
-
-}
-  
-  
 }
