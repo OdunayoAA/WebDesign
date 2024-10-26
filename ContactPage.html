@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Odunayo Ajakaye">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Agro.nl/contact</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
@@ -15,7 +15,7 @@
 <body>
   <header>
      <a href="index.html">
-       <img src="img/logo.png.jpg" height="40" id="logo1">
+       <img src="img/logo.png.jpg" id="logo1">
      </a>
   </header>
   
@@ -32,21 +32,36 @@
 
     <hr>
     <form action="img/thank you form.png" method="post">
-        <label for="Fname">First Name:</label><br>
-        <input class="name" type="text" placeholder="Enter first name" required><br><br>
+      
+      <fieldset>
+        <legend>
+           Contact information
+       </legend>
+      </fieldset>
+      
+          <label for="Fname">First Name:</label><br>
+          <input class="name" type="text" placeholder="Enter first name" required><br><br>
        
-        <label for="Lname">Last Name:</label><br>
-        <input class="name" type="text" placeholder="Enter last name" required> <br><br>
+          <label for="Lname">Last Name:</label><br>
+          <input class="name" type="text" placeholder="Enter last name" required> <br><br>
 
-        <label for="Phone">Phone</label><br>
-        <input class="phone" type="tel" placeholder="Enter phone number"><br><br>
+         <label for="Phone">Phone</label><br>
+         <input class="phone" type="tel" placeholder="Enter phone number"><br><br>
 
-        <label class="mail" for="email">Email Address:</label><br>
-        <input class="email" type="email" id="email" name="email" placeholder="Enter email" required><br><br>
+         <label class="mail" for="email">Email Address:</label><br>
+         <input class="email" type="email" id="email" name="email" placeholder="Enter email" required><br><br>
 
-        <label for="Comment">Questions?</label><br>
-        <textarea id="comment" rows="3" cols="25"></textarea><br>
-        <input type="submit" value="Submit">
+         <label for="title">Title:</label>
+         <label for="Mr.">Mr.</label>
+         <input type="radio" id="Mr." value="Mr." name="Title">
+         <label for="Ms.">Ms.</label>
+         <input type="radio" id="Ms." value="Ms." name="Title">
+         <label for="Dr.">Dr</label>.</label>
+         <input type="radio" id="Dr." value="Dr." name="Title"><br>
+     
+         <label for="Comment">Questions?</label><br>
+         <textarea id="comment" rows="3" cols="25"></textarea><br>
+         <input type="submit" value="Submit">
 
     </form>
     
@@ -89,7 +104,7 @@
                 <li><a href="https://www.tiktok.com/@aizacartoon_375/video/7395491250746527008"> Tiktok</a></li>
                <li><a href="https://www.youtube.com/watch?v=mhDJNfV7hjk">Get inspired</a></li>
              </ul>
-              &copy; all right reserved agro products 2024<br><br>
+             &copy;2024 Agro products. All Rights Reserved<br><br>
          </section>
       </span>
     </footer>
