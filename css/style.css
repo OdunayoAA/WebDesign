@@ -267,6 +267,17 @@ form{
   background-color: #ffff;
   color: #000;
 }
-@media screen {
+@media (min-width:768px ) 
+{
+  #fruit{
+    height: 250px;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10rem;
+    margin-bottom: 20px;
+    padding-right: 0em;
+    border-radius: 100px;
+    max-width: 100%;
+  }
   
 }
