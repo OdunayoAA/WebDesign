@@ -271,15 +271,6 @@ form{
   background-color: #ffff;
   color: #000;
 }
-@media (min-width:640px ) 
-{
-  body{
-    max-width: 640px;
-  }
-  .body1{
-    max-width: 640px;
-  }
-}
 @media (min-width:768px ) 
 {
   body{
