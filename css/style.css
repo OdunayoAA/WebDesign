@@ -7,7 +7,7 @@ body{
   color: #0000ff;
   width: 100%;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
 }
 header h1{
@@ -263,13 +263,46 @@ height: 250px;
 
 /*this area is for the forms*/
 
-form{
-  border-style: groove;
-  border-color: #0000ff;
-  text-align: center;
-  padding: 5px;
-  background-color: #ffff;
-  color: #000;
+form {
+  background-image:  url(grassfedlamb.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #f0f8ff;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #0000ff;
+}
+
+textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+textarea {
+  height: 6.25em;
 }
 @media (min-width:768px ) 
 {
