@@ -304,6 +304,9 @@ textarea {
 textarea {
   height: 6.25em;
 }
+
+/*here, we deal with the device/screen sizes*/
+
 @media (min-width:768px ) 
 {
   body{
