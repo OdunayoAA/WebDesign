@@ -181,7 +181,17 @@ display: flow-root;
 section h4{
   color: aliceblue;
   text-transform: uppercase;
-  
+}
+figure{
+  display: flow-root;
+}
+figure > img, figcaption{
+ position: auto;
+ margin-left: 20px;
+ margin-bottom: 20px;
+ padding-left: 0em;
+ border-radius: 100px;
+ max-width: 100%;
 }
 p {
   line-height: 1;
