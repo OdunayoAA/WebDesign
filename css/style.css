@@ -307,25 +307,14 @@ textarea {
 @media (min-width:768px ) 
 {
   body{
-    width: auto;
+  
     max-width: 768px;
   }
   .body1{
-    width: auto;
+  
     max-width: 768px;
   }
 }
-
-@media (min-width:1024px ) 
-{
-  body{
-    max-width: 1024px;
-  }
-  .body1{
-    max-width: 1024px;
-  }
-}
-
 @media (max-width:1280px ) 
 {
   body{
@@ -333,15 +322,5 @@ textarea {
   }
   .body1{
     max-width: 1280px;
-  }
-}
-
-@media (min-width:1536px ) 
-{
-  body{
-    max-width: 1536px;
-  }
-  .body1{
-    max-width: 1536px;
   }
 }
