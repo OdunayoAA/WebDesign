@@ -267,10 +267,10 @@ form{
   background-color: #ffff;
   color: #000;
 }
-@media (min-width:768px ) 
+@media (max-width:768px ) 
 {
   #fruit{
-    height: 250px;
+    height: 100px;
     display: block;
     margin-left: 10px;
     margin-right: 10rem;
