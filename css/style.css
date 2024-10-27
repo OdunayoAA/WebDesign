@@ -315,7 +315,7 @@ textarea {
   }
   .fruit{
     height: 250px;
-    float: right;
+    position: absolute;
     margin-left: 10px;
     margin-right: 0rem;
     margin-bottom: 20px;
