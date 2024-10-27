@@ -313,6 +313,17 @@ textarea {
   
     max-width: 768px;
   }
+  .fruit{
+    height: 250px;
+    float: right;
+    margin-left: 10px;
+    margin-right: 0rem;
+    margin-bottom: 20px;
+    padding-right: 0em;
+    border-radius: 100px;
+    max-width: 100%;
+  }
+  
 }@media (min-width:1024px ) 
 {
   body{
