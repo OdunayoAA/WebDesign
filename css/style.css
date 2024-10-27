@@ -1,10 +1,8 @@
 
 body{
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0rem;
   color: #0000ff;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding: 0rem;
   width: auto;
   font-family: "Roboto", sans-serif;
   font-weight: 200;
@@ -247,7 +245,7 @@ table ,th, td{
 #figure{
 height: 250px;
 }
-#fruit{
+.fruit{
   height: 250px;
   float: right;
   margin-left: 10px;
