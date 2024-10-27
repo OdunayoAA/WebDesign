@@ -301,17 +301,6 @@ textarea {
 }
 
 /*here, we deal with the device/screen sizes*/
-@media (max-width:768px ) 
-{
-  body{
-  
-    max-width: 768px;
-  }
-  .body1{
-  
-    max-width: 768px;
-  }
-}
 @media (min-width:768px ) 
 {
   body{
