@@ -171,6 +171,9 @@ footer section ul li:visited{
 article h2{
   color: aliceblue;
 }
+
+article h2::first-letter { 
+  font-size: 2em; }
 section {
   display: flow-root;
 }
@@ -214,6 +217,10 @@ table ,th, td{
   border-collapse: collapse;
   border-width: 3px;
 }
+
+tr:nth-child(even)
+ { background-color: #f0f8ff; 
+ }
 
 /*this are for the image positioning*/
 
@@ -303,6 +310,17 @@ textarea {
 }
 
 /*here, we deal with the device/screen sizes*/
+@media (min-width:480px ) 
+{
+  body{
+  
+    max-width: 480px;
+  }
+  .body1{
+  
+    max-width: 480px;
+  }
+}
 @media (min-width:768px ) 
 {
   body{
@@ -313,17 +331,6 @@ textarea {
   
     max-width: 768px;
   }
-  .fruit{
-    height: 250px;
-    position: absolute;
-    margin-left: 10px;
-    margin-right: 0rem;
-    margin-bottom: 20px;
-    padding-right: 0em;
-    border-radius: 100px;
-    max-width: 100%;
-  }
-  
 }@media (min-width:1024px ) 
 {
   body{
