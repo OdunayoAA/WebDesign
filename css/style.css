@@ -219,7 +219,7 @@ table ,th, td{
 }
 
 tr:nth-child(even)
- { background-color: #f0f8ff; 
+ { background-color: #f0fffe; 
  }
 
 /*this are for the image positioning*/
@@ -310,29 +310,40 @@ textarea {
 }
 
 /*here, we deal with the device/screen sizes*/
-@media (max-width: 480px) {
-  body, .body1, .fruit {
-    max-width: 100%;
-    width: 100%;
-    overflow-x: hidden;
+@media (min-width:480px ) 
+{
+  body{
+  
+    max-width: 480px;
   }
-
-  .fruit img {
-    max-width: 100%;
-    height: auto;
+  .body1{
+  
+    max-width: 480px;
   }
 }
 
-@media (max-width: 780px) {
-  body, .body1, .fruit {
-    max-width: 100%;
-    width: 100%;
-    overflow-x: hidden;
+@media (min-width:640px ) 
+{
+  body{
+  
+    max-width: 640px;
+  }
+  .body1{
+  
+    max-width: 640px;
   }
 
-  .fruit img {
-    max-width: 100%;
-    height: auto;
+}
+
+@media (min-width:768px ) 
+{
+  body{
+  
+    max-width: 768px;
+  }
+  .body1{
+  
+    max-width: 768px;
   }
 
 }@media (min-width:1024px ) 
@@ -354,16 +365,15 @@ textarea {
     max-width: 1280px;
   }
 
-}@media (max-width: 1440px) {
-  body, .body1, .fruit {
-    max-width: 100%;
-    width: 100%;
-    overflow-x: hidden;
+}@media (min-width:1440px ) 
+{
+  body{
+  
+    max-width: 1440px;
   }
-
-  .fruit img {
-    max-width: 100%;
-    height: auto;
+  .body1{
+  
+    max-width: 1440px;
   }
 }
 
