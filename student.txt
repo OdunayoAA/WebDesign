@@ -1,0 +1,6 @@
+student.txt
+Student name: Odunayo Ajakaye.
+Student number: 733639
+Student class: IT1D
+GitHub repository: https://github.com/OdunayoAA/WebDesign
+GitHub Pages: https://odunayoaa.github.io/WebDesign/index.html
