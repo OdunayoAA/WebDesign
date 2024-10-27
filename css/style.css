@@ -1,8 +1,10 @@
 
 body{
-  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
   color: #0000ff;
-  padding: 0px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   width: auto;
   font-family: "Roboto", sans-serif;
   font-weight: 200;
@@ -213,7 +215,7 @@ table ,th, td{
   border-width: 3px;
 }
 
-/*this are IDs(all ID in the entire html file can be found here*/
+/*this are for the image positioning*/
 
 #logo1{
   float: left;
