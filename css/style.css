@@ -11,8 +11,6 @@ body{
   font-style: normal;
 }
 header h1{
-  min-height: 600;
-  font-size: 500;
   text-align: center;
   color:#f0f8ff;
 
@@ -62,7 +60,7 @@ footer{
   background-color:#008000 ;
   margin: auto;
 }
-footer span.container {
+footer section.container {
   display: flex;
   flex-wrap: wrap;
 }
@@ -158,7 +156,6 @@ footer section ul li:visited{
 .dropdown .content{
   display: none;
   position: absolute;
-  background-color: hsl(hue, saturation, lightness);
   min-width: 100px;
 }.dropdown:hover .content{
   display: block;
@@ -177,8 +174,9 @@ article h2{
 section {
   display: flow-root;
 }
-section h4{
+section ul{
   color: #DDDDDD;
+  font-weight: 500;
   text-transform: uppercase;
 }
 figure{
@@ -187,7 +185,6 @@ figure{
 }
 figure > img{
  gap:inherit ;
- position: auto;
  padding-right: 0em;
  border-radius: 100px;
  max-width: 100%;
@@ -229,7 +226,7 @@ table ,th, td{
   border: none;
   border-radius: 100px;
 }
-#hangingfruit{
+.hangingfruit{
   height: 300px;
   float: right;
   margin-left: 10px;
@@ -238,7 +235,7 @@ table ,th, td{
   border-radius: 100px;
   max-width: 100%;
 }
-#plantingseed{
+.plantingseed{
   height: 400px;
   float: right;
   margin-left: 20px;
@@ -306,8 +303,7 @@ textarea {
 }
 
 /*here, we deal with the device/screen sizes*/
-
-@media (min-width:768px ) 
+@media (max-width:768px ) 
 {
   body{
   
@@ -318,6 +314,26 @@ textarea {
     max-width: 768px;
   }
 }
+@media (min-width:768px ) 
+{
+  body{
+  
+    max-width: 768px;
+  }
+  .body1{
+  
+    max-width: 768px;
+  }
+}@media (min-width:1024px ) 
+{
+  body{
+    max-width: 1024px;
+  }
+  .body1{
+    max-width: 1024px;
+  }
+}
+
 @media (max-width:1280px ) 
 {
   body{
@@ -325,5 +341,15 @@ textarea {
   }
   .body1{
     max-width: 1280px;
+  }
+}
+
+@media (min-width:1536px ) 
+{
+  body{
+    max-width: 1536px;
+  }
+  .body1{
+    max-width: 1536px;
   }
 }
